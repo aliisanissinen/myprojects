@@ -5,12 +5,12 @@ their stores, and their product selections. User can then search for different c
 different stores and see the store's product selections. User can also search for a place 
 that sells the cheapest product.
 
-Commands:
-quit
-chains
-stores
-selection <chain_name> <store_name>
-cheapest <product_name>
+Commands: <br />
+quit <br />
+chains <br />
+stores <br />
+selection <chain_name> <store_name> <br />
+cheapest <product_name> <br />
 products
 
 
