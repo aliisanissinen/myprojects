@@ -1,7 +1,7 @@
 This code is one of the projects of the Programming 2: Basics course, at Tampere University. I took the course in the spring of 2020.
 
 The Tetris game, where the player can move tetrominoes horizontally and down. 
-Tetromino also moves down by themselves. The purpose of the game is to make full rows of 
+Tetromino also moves down by itself. The purpose of the game is to make full rows of 
 rectangles. After that, the full lines disappear and the player gets points (15) and more 
 available space in the game platform. The game ends when the column of tetrominoes grows 
 to the top of the game platform.
