@@ -1,10 +1,6 @@
 // Game15 (or puzzle 15)
 //
 // Program author
-// Name: Aliisa Nissinen
-// Student number: 291603
-// UserID: kralni
-// E-Mail: aliisa.nissinen@tuni.fi
 //
 // Builds a two-dimensional grid for puzzle 15, that contains numbers 1-15 
 // and a dot (represents a blank box, number 16 in a vector).
