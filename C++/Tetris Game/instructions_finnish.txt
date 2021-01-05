@@ -1,0 +1,15 @@
+Tetris peli
+
+Peliohjeet:
+Tetris pelissä on tarkoitus rakentaa värikkäistä neliöistä vaakasuoria täysiä rivejä pelialueelle. Pelialueelle tippuu automaattisesti yläreunasta tetrominoja (7 erilaista), jotka sisältävät neljä neliöitä. Pelaaja voi liikutella tetrominoa vaakasuoraan tai alaspäin. Tetromino pysähtyy kun se törmää alareunaan tai toiseen tetrominoon, tämän jälkeen uusi tetromino ilmestyy yläreunasta. Voit liikuttaa tetrominoa vaakasuoraan niin kauan, ennen kuin seuraava tetromino ilmestyy pelialueelle. Tetrominoa ei voi liikuttaa pelialueen ulkopuolelle. Pelaajan saadessa rivin täyteen neliöitä, rivi poistuu pelialustalta ja pelaaja saa 15 pistettä, ylemmät neliörivit laskeutuvat alaspäin. Jokaisesta 30 pisteestä, peli nopeutuu ja tämän myötä myös vaikeutuu. Peli loppuu, kun pysähtynyt tetromino osuu yläreunaan. Pelin lopussa näytölle ilmestyy pistemäärä, jonka pelaaja on kerännyt pelin aikana.
+
+Käyttöohjeet:
+Peli aloitetaan start-nappulalla, joka näkyy pelikentän oikealla puolella. Pelin voi keskeyttää pause-nappulasta ja samaa peliä voi jatkaa continue-nappulasta, nämä sijaitsevat start-nappulan alla. Näiden alla on quit-nappula, josta pelin saa lopetettua kokonaan.
+Tetrominoa voi liikuttaa left- ja right-painikkeilla, jotka sijaitsevat pelialueen oikealla puolella. Liikuttamisen voi tehdä myös näppäimistön A (left) ja D (right) näppäimillä. Näppäimellä S (down) voi tetrominoa liikuttaa myös alaspäin, jolloin sen saa nopeammin paikoilleen kuin automaattista liikuttamista odottaessa.
+Pelialueen oikealla puolella on myös aikalaskuri, joka laskee peliin käytetyt sekunnit, sekä pistelaskuri.
+
+Ohjelman rakenne:
+Start nappulaa painaessa peli käynnistyy. Tämän jälkeen new_shape funktio rakentaa satunnaisen tetrominon vektoriin ja käynnistää timerin. Timer on yhdistetty move_down funktioon, jonka avulla tetromino aina automaattisesti tippuu askeleen alaspäin. Tetrominon osuessa pelialueen alareunaan tai toiseen jo pysähtyneeseen tetrominoon, tetromino pysähtyy ja timer otetaan pois päältä. Pysähtyneen tetrominon neliöt lisätään set_rectvectoriin_, joka sisältää kaikki pysähtyneet neliöt. Tämän jälkeen tarkistetaan onko jokin riveistä kokonaan täynnä neliöitä funktiolla full_line, sekä onko pelialusta täynnä yläreunaan asti funktiolla game_end_check. Kokonaisen rivin ollessa täynnä, rivin palikat poistetaan ja ylemmät rivit tiputetaan alaspäin line_down funktiossa. Mikäli pelialusta ei ole vielä täynnä, rakennetaan uusi tetromino new_shape funktiolla ja ohjelma pyörii tätä rataa kunnes peli loppuu tetrominojen osuessa yläreunaan. 
+Pelin voi keskeyttää on_pauseButton_clicked funktiolla ja jatkaa on_continueButton_clicked funktiolla (painikkeita painaessa). Pistelasku ja palikoiden nopeus muutetaan add_score funktiossa. Sekuntikello toimii seconds_go funktiolla. Pelaajan liikuttaessa tetrominoa horisontaalisesti, käytetään funktiota move_horizontal.
+
+
