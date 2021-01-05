@@ -2,9 +2,6 @@
 //
 // Program author
 // Name: Aliisa Nissinen
-// Student number: 291603
-// UserID: kralni
-// E-Mail: aliisa.nissinen@tuni.fi
 //
 // Instructions:
 // This program generates a 15 puzzle. The board is the size of 4 x 4,
