@@ -1,0 +1,17 @@
+{
+  "name": "Vappu2",
+  "displayName": "Vappu2",
+  "expo": {
+    "name": "Vappu2",
+    "slug": "Vappu2",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
