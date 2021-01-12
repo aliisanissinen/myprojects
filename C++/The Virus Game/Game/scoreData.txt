@@ -1,0 +1,8 @@
+TuniMies;100;125;175;
+Osaaja;999;999;999
+Testaaja1;34;0;2;
+Testaaja2;5;0;25;
+Testaaja3;0;24;25;
+Testaaja4;34;65;25;
+Testaaja5;43;0;4;
+Testaaja999;34;0;25;

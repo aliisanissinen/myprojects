@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Pics">
+        <file>Pics/virus.jpg</file>
+        <file>Pics/human.png</file>
+        <file>Pics/bus.png</file>
+        <file>Pics/stop3.png</file>
+        <file>Pics/drone.png</file>
+        <file>Pics/virus2.png</file>
+        <file>Pics/vaccine.png</file>
+    </qresource>
+</RCC>
