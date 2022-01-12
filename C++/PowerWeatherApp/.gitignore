@@ -1,0 +1,11 @@
+*.pro.user
+*/build*
+templates/*
+examples/*
+*Makefile*
+*build*
+*.qmake.stash
+*/debug
+html*
+latex*
+powerweatherapp/savedFiles/

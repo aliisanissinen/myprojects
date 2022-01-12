@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QML/CalendarView.qml</file>
+        <file>QML/ImportDataButton.qml</file>
+        <file>QML/Lineplot.qml</file>
+        <file>QML/main.qml</file>
+        <file>QML/DrawClearButtons.qml</file>
+        <file>QML/SaveButtons.qml</file>
+        <file>QML/Sidebar.qml</file>
+        <file>QML/Textfieldfordata.qml</file>
+        <file>QML/InsideWindow.qml</file>
+    </qresource>
+</RCC>
